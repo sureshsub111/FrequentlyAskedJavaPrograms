@@ -17,7 +17,7 @@ public class SortMapByValues {
       map.put("ramu", 2);
       
       ArrayList<Map.Entry<String,Integer>> list = new ArrayList<>(map.entrySet());
-      list.sort(Map.Entry.comparingByValue(Comparator.reverseOrder()));
+      list.sort(Map.Entry.comparingByValue());
       
       // suppose if we need reverseOrder
       //Map.Entry.comparingByValue(Comparator.reverseOrder())
